@@ -1,4 +1,4 @@
-package com.virginflights.info.dao;
+package com.virginflights.info.service;
 
 import com.opencsv.bean.CsvToBeanBuilder;
 import com.virginflights.info.model.FlightBean;
@@ -12,7 +12,7 @@ import java.util.HashMap;
 import java.util.List;
 
 @Service
-public class FlightDAO {
+public class FlightService {
     public static HashMap<String, List<FlightData>> getFlightsInfo(String date) throws FileNotFoundException {
 
         String fileName = "src/main/resources/FlightInformation.csv";
