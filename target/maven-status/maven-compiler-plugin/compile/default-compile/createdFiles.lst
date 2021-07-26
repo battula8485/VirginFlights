@@ -1,0 +1,8 @@
+com/virginflights/info/model/FlightBean.class
+com/virginflights/info/VirginFlightsApplication.class
+com/virginflights/info/exception/ErrorResponse.class
+com/virginflights/info/controller/FlightController.class
+com/virginflights/info/exception/CustomExceptionHandler.class
+com/virginflights/info/model/FlightData.class
+com/virginflights/info/exception/MissingHeaderException.class
+com/virginflights/info/dao/FlightDAO.class

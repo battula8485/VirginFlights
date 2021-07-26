@@ -1,0 +1,46 @@
+
+GET
+URL : http://localhost:8080/flights/saturday
+
+Response :
+
+{
+    "Saturday": [
+        {
+            "departureTime": "10:00",
+            "destination": "Antigua",
+            "destinationAirportIATA": "ANU",
+            "flightNo": "VS033"
+        },
+        {
+            "departureTime": "11:05",
+            "destination": "Barbados",
+            "destinationAirportIATA": "BGI",
+            "flightNo": "VS029"
+        },
+        {
+            "departureTime": "10:15",
+            "destination": "Las Vegas",
+            "destinationAirportIATA": "LAS",
+            "flightNo": "VS043"
+        },
+        {
+            "departureTime": "15:35",
+            "destination": "Las Vegas",
+            "destinationAirportIATA": "LAS",
+            "flightNo": "VS044"
+        },
+        {
+            "departureTime": "11:20",
+            "destination": "Orlando",
+            "destinationAirportIATA": "MCO",
+            "flightNo": "VS027"
+        },
+        {
+            "departureTime": "13:00",
+            "destination": "Orlando",
+            "destinationAirportIATA": "MCO",
+            "flightNo": "VS015"
+        }
+    ]
+}
